@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../static/chapter.css">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="light-theme" >
+
+
+
+
+
+<div class="main-content" id="cover">
+
+  <!-- Search Bar -->
+  <input type="text" id="searchBar" placeholder="Search books ..." >
+
+  <!-- Book List -->
+  <div id="bookList">
+    <a href="../book/maya/the surgeon and the saint/chapter 1.html">
+      <img title="Click to read" src="../bookcover/the surgeon and the saint.jpg" height="300" width="300" >
+       The Surgeon and the Saint 
+    </a>
+
+    <a href="../book/kaiyan/stand in seduction/coming_soon.html">
+      <img title="Click to read" src="../bookcover/stand in seduction.jpg" height="300" width="300">
+       Stand in Seduction 
+    </a>
+
+    <a href="../book/maya/holy trouble/coming_soon.html">
+      <img title="Click to read" src="../bookcover/Holy Trouble.png" height="300" width="300">
+       Holy Trouble 
+    </a>
+
+     <a href="../book/maya/City Girl, Country Heart/chapter 1.html">
+      <img title="Click to read" src="../bookcover/City Girl, Country Heart.jpg" height="300" width="300">
+       City Girl, Country Heart 
+    </a>
+
+    <a href="../book/kaiyan/crimson and blue/chapter 0.html">
+      <img title="Click to read" src="../bookcover/crimson and blue.jpg" height="300" width="300">
+       Crimson And Blue 
+    </a>
+
+  </div>
+
+     <p class="copyright" style=" text-align:center;">Copyright © 2026. All Rights Resered.  
+
+
+  <h4 id="noResults">No results found</h4>
+</div>
+
+<div id="chatbot-icon" title="Click to use the AI">🗨️</div> 
+    <div id="chatbot-container" class="hidden">
+        <div id="chatbot-header">
+            <span>MR Librairy AI</span>
+            <button  id="close-btn">&times;</button>
+        </div><div id="chatbot-body">
+            <div id="chatbot-messages">
+                <div id="chatbot-input-container">
+                    <input type="text"  id="chatbot-input" placeholder="Type a message....."/>
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+
+</div>
+
+
+
+<script src="../static/chatbot.js"></script>
+
+    <script src="../static/lucide.min.js"></script>
+        <script> if (window.lucide) lucide.createIcons(); </script>
+        <script src="../static/scrip.js"></script>
+  <script src="../static/chapter.js" defer></script>
+</body>
+</html>
